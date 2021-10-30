@@ -4,7 +4,7 @@
   "description": "The Math API for Math Calculation",
   "main": "./src/index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll --coverage",
     "lint": "eslint ./src",
     "fix": "eslint ./src --fix"
   },
