@@ -12,5 +12,9 @@
     "api"
   ],
   "author": "Erik Rio Setiawan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1"
+  }
 }
