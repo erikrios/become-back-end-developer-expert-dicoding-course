@@ -4,7 +4,7 @@
   "description": "The Math API for Math Calculation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "keywords": [
     "math-api",
