@@ -2,9 +2,10 @@
   "name": "math-api",
   "version": "1.0.0",
   "description": "The Math API for Math Calculation",
-  "main": "./src/index.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "jest --watchAll --coverage",
+    "start": "node src/app.js",
     "lint": "eslint ./src",
     "fix": "eslint ./src --fix"
   },
