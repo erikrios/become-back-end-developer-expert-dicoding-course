@@ -26,3 +26,5 @@ const AuthenticationsTableTestHelper = {
     await pool.query('TRUNCATE TABLE authentications');
   },
 };
+
+module.exports = AuthenticationsTableTestHelper;
