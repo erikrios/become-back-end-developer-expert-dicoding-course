@@ -10,6 +10,6 @@ describe('DomainErrorTranslator', () => {
     expect(DomainErrorTranslator.translate(new Error('REGISTER_USER.USERNAME_LIMIT_CHAR')))
       .toStrictEqual(new InvariantError('tidak dapat membuat user baru karena karakter username melebihi batas limit'));
     expect(DomainErrorTranslator.translate(new Error('REGISTER_USER.USERNAME_CONTAIN_RESTRICTED_CHARACTER')))
-      .toStrictEqual(new InvariantError('tidak dapat membuat user baru karena karakter username mengandung karakter terlarang'));
+      .toStrictEqual(new InvariantError('tidak dapat membuat user baru karena username mengandung karakter terlarang'));
   });
 });
