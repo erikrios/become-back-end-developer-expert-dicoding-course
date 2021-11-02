@@ -14,7 +14,7 @@ new InvariantError('tidak dapat membuat user baru karena tipe data tidak sesuai'
   'REGISTER_USER.USERNAME_LIMIT_CHAR':
 new InvariantError('tidak dapat membuat user baru karena karakter username melebihi batas limit'),
   'REGISTER_USER.USERNAME_CONTAIN_RESTRICTED_CHARACTER':
-new InvariantError('tidak dapat membuat user baru karena karakter username mengandung karakter terlarang'),
+new InvariantError('tidak dapat membuat user baru karena username mengandung karakter terlarang'),
 };
 
 module.exports = DomainErrorTranslator;
