@@ -52,6 +52,7 @@ container.register([
 container.register([
   {
     key: AddUserUseCase.name,
+    Class: AddUserUseCase,
     parameter: {
       injectType: 'destructuring',
       dependencies: [
